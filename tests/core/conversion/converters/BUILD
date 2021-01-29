@@ -68,6 +68,10 @@ converter_test(
 )
 
 converter_test(
+  name = "test_topk"
+)
+
+converter_test(
   name = "test_lstm_cell"
 )
 
@@ -88,6 +92,7 @@ test_suite(
     ":test_interpolate",
     ":test_select",
     ":test_stack",
+    ":test_topk",
     ":test_lstm_cell"
   ]
 )
